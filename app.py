@@ -299,4 +299,4 @@ def process_video(
         raise HTTPException(
             status_code=500,
             detail=f"Processing failed: {type(e).__name__}: {e}",
-)
+        )
